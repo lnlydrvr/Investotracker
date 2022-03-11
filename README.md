@@ -1,15 +1,17 @@
 # <div align=center> Investotracker </div>
 
-<p align=center> Track your Tinkoff investment portfolio with Tinkoff Invest API </p>
+<p align=center> Track your Tinkoff investment portfolio with Tinkoff Invest API and Python </p>
 
 ## Table of Contents
+
 - [Features](#Features)
 - [API requirements](#API-requirements)
 - [Documentation](#Documentation)
 - [Getting Started](#Getting-Started)
-- [Contributors](#Contributors) 
+- [Contributors](#Contributors)
 
 ## Features
+
 - View the current investment portfolio
 - Traces quotes in real time
 - Provides detailed information about trading instruments
@@ -19,21 +21,33 @@
 - Builds charts and tree maps of your investment portfolio
 
 ## API requirements
+
 These requirements are listed in the [Tinkoff Invest API](https://tinkoff.github.io/investAPI/) documentation:
+
 1. Being a client of [Tinkoff Investments](https://www.tinkoff.ru/invest/)
 2. Get an [access token](https://tinkoff.github.io/investAPI/token)
 
 ## Documentation
+
 - [Tinkoff Invest API](https://tinkoff.github.io/investAPI/instruments/#instrumentsservice)
 - [SDK for Python](https://github.com/Tinkoff/invest-python)
 
 ## Getting Started
+
 First of all, install [Python](https://www.python.org/downloads/) on your device. Then type this command in the terminal and install the missing dependencies if necessary:
+
 ```bash
 pip install tinkoff-investments
 ```
 
+Up next, get **readonly** access token according to the [instructions](https://tinkoff.github.io/investAPI/token) ...
+<!-- Доделать инструкцию по добавлению токена -->
+
 ## Contributors
-<center> <a href="https://github.com/lnlydrvr/Investotracker/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=lnlydrvr/Investotracker" />
-</a> </center>
+
+<div align=center>
+<a href="https://github.com/lnlydrvr/Investotracker/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lnlydrvr/Investotracker" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks). </div>
